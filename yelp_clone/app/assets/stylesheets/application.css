@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+/* highlights the field when an invalid input is given
+* .div_id #field_id
+*/
+.field_with_errors #restaurant_name{
+   border-width: thick;;
+   border-color: red;
+}
